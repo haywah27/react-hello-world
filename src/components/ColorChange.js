@@ -24,7 +24,7 @@ function ColorChange() {
       label: "orange",
     },
   ];
-  
+
   const [setColor, colorValue] = useState(colors.label);
 
   const handleColor = (event) => {

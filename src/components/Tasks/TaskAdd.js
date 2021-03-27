@@ -1,15 +1,22 @@
 import React, { Component } from "react";
+import Button from "react-bootstrap/Button";
 
 class TaskAdd extends Component {
   render() {
     return (
-      <div>
-        <h1>Add your task here</h1>
+      <div className="task-add">
+        <h1>Add Task:</h1>
 
-        <input type="text" placeholder="Enter Task here" />
-        <button> Add </button>
+        <input
+          type="text"
+          onChange={this.props.changed}
+          placeholder="Enter Task here"
+        ></input>
+
+        <Button onClick={this.props.clicked}>Add</Button>
       </div>
     );
   }
 }
+
 export default TaskAdd;
