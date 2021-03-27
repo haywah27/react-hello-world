@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
 
 ## Link to webpage
-https://haywah27.github.io/react-hello-world/
+https://haywah27-hello-react.herokuapp.com/
 
 ## Description
 Experimenting with React functionality and structure to learn, and understand more deeply, about the React framework.
