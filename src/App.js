@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Navbar from "./components/NavBar";
 import ColorChange from "./components/ColorChange";
 import TaskAdd from "./components/Tasks/TaskAdd";
-
+import Tasks from "./components/Tasks/Tasks";
 
 class App extends Component {
   // state component
@@ -47,6 +47,14 @@ class App extends Component {
             clicked={this.addTaskHandler}
             remove={this.removeTaskHandler}
           />
+
+         
+            <Tasks
+              tasks={this.state.tasksRemain}
+              remove={this.removeTaskHandler}
+              darkMode={this.state.darkMode}
+            />
+          
         </div>
       </>
     );
