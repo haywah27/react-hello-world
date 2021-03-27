@@ -37,6 +37,7 @@ class App extends Component {
   };
 
   render() {
+    let numTasks = this.state.tasksRemain.length;
     return (
       <>
         <div>
@@ -48,13 +49,15 @@ class App extends Component {
             remove={this.removeTaskHandler}
           />
 
-         
+          {numTasks === 0 ? (
+            <p>No Tasks</p>
+          ) : (
             <Tasks
               tasks={this.state.tasksRemain}
               remove={this.removeTaskHandler}
               darkMode={this.state.darkMode}
             />
-          
+          )}
         </div>
       </>
     );
