@@ -27,6 +27,14 @@ class App extends Component {
     });
   };
 
+  // Removes tasks from the tasks array
+  removeTaskHandler = (index) => {
+    const beforeTasks = this.state.tasksRemain.slice(0, index);
+    const afterTasks = this.state.tasksRemain.slice(index + 1);
+    const tasks = [...beforeTasks, ...afterTasks];
+    console.log(tasks);
+    this.setState({ tasksRemain: tasks });
+  };
 
   render() {
     return (
