@@ -9,13 +9,12 @@ https://haywah27-hello-react.herokuapp.com/
 Experimenting with React functionality and structure to learn, and understand more deeply, about the React framework.
 
 ## Deployed Website
-...coming soon!
-<!-- <img src="./readme-img/index.png" alt="deployed-index"> -->
+App WIP.
+<img src="./public/React App.gif" alt="deployed-page">
 
 ## Technology Used
 * React
 * JavaScript
-* HTML5
 * CSS3
 
 ## Contributing
